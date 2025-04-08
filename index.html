@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML復習ページ</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    nav {
+      background: #34495e;
+      padding: 0.5em;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      padding: 2em;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 0.75em;
+      text-align: center;
+    }
+    th {
+      background-color: #2980b9;
+      color: white;
+    }
+    button {
+      padding: 0.7em 1.5em;
+      background-color: #27ae60;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 1em;
+    }
+    button:hover {
+      background-color: #2ecc71;
+    }
+    form {
+      margin-top: 2em;
+      background: white;
+      padding: 1em;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin-top: 1em;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.5em;
+      margin-top: 0.5em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      margin-top: 3em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HTML復習サンプルページ</h1>
+  </header>
+
+  <nav>
+    <a href="#">ホーム</a>
+    <a href="#">表</a>
+    <a href="#">フォーム</a>
+    <a href="#">お問い合わせ</a>
+  </nav>
+
+  <main>
+    <h2>表の例</h2>
+    <table>
+      <tr>
+        <th>名前</th>
+        <th>年齢</th>
+        <th>趣味</th>
+      </tr>
+      <tr>
+        <td>ミケ</td>
+        <td>20</td>
+        <td>プログラミング</td>
+      </tr>
+      <tr>
+        <td>サトシ</td>
+        <td>22</td>
+        <td>ゲーム</td>
+      </tr>
+      <tr>
+        <td>ユイ</td>
+        <td>19</td>
+        <td>読書</td>
+      </tr>
+    </table>
+
+    <button onclick="alert('ボタンが押されました！')">クリックしてみて！</button>
+
+    <form>
+      <h2>お問い合わせフォーム</h2>
+      <label for="name">名前</label>
+      <input type="text" id="name" name="name">
+
+      <label for="email">メールアドレス</label>
+      <input type="email" id="email" name="email">
+
+      <label for="message">メッセージ</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+
+      <button type="submit">送信</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 あなたの名前</p>
+  </footer>
+</body>
+</html>
