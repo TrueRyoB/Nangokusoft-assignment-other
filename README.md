@@ -1,7 +1,9 @@
 # 提出物確認方法
-課題2: 
-assignment-2/rotateを保存　→ 保存先のディレクトリに移動　→ ./rotateでexeファイルを実行　→ 終わり！（簡単）<br>
-もし僕が信用できないようでしたら、assignment-2ディレクトリの中身を全部保存して、./run.bashされても構いません！<br>
+課題2: <br>
+[assignment-2/rotate](https://github.com/TrueRyoB/Nangokusoft-assignment/blob/main/assignment-2/rotate)を保存　→ 保存先のディレクトリに移動　→ ./rotateでexeファイルを実行　→ 終わり！（簡単）<br>
+もし僕が信用できないようでしたら、assignment-2ディレクトリの中身を[全部](https://github.com/TrueRyoB/Nangokusoft-assignment/tree/main/assignment-2)保存して、./run.bashされても構いません！<br>
+課題3:
+[assignments/STRAT.md](https://github.com/TrueRyoB/Nangokusoft-assignment/blob/main/assignments/STRAT.md)に記載しました！そちらを見てくだされば幸いです。<br>
 
 # 資源
 割ける時間：16日まで（ちょうど一週間）　並列作業もあるから、最大3時間<br>
