@@ -3,19 +3,19 @@ document.getElementById("submit").addEventListener("click", function () {
   
   if (typeof value !== "string") 
   {
-    console.log("The given value is not a string: " + value);
+    alert("The given value is not a string: " + value);
     return;
   }
-  let n = value.length;
+  //let n = value.length;
+  //if (/\d/.test(c)) 
 
-  for(let i=0; i<n; ++i)
+  const result = parseAndEvaluate(value);
+  if (!result.success)
   {
-    let c = value[i];
-    if (/\d/.test(c)) 
-      console.log("number");
-    else 
-      console.log("not number");
+    alert("The given value contains invalid words: " + value);
+    return;
   }
+  alert("calculation result: " + result);
 });
 
 document.getElementById("reportBtn").addEventListener("click", function () {
@@ -23,3 +23,15 @@ document.getElementById("reportBtn").addEventListener("click", function () {
   const url = `https://twitter.com/intent/tweet?text=${text}`;
   window.open(url, "_blank");
 });
+
+
+function parseAndEvaluate(expr) {
+  if (!/^[0-9+\-*/. ]+$/.test(expr))  return { success: false };
+
+  try {
+    let result = eval(expr);
+    return { success: true, value: result };
+  } catch (e) {
+    return { success: false };
+  }
+}
