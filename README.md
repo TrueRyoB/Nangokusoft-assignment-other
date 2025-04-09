@@ -15,4 +15,4 @@
 assignment-2ディレクトリの中身を[全部](https://github.com/TrueRyoB/Nangokusoft-assignment-other/tree/main/assignment-2)保存して、同様に移動し、./run.bashで完了です。<br>
 
 課題3:<br>
-[assignments/STRAT.md](https://github.com/TrueRyoB/Nangokusoft-assignment-other/blob/main/assignment-3/STRAT.md)に記載しました！こちらを見てくだされば幸いです。<br>
+[assignment-3/STRAT.md](https://github.com/TrueRyoB/Nangokusoft-assignment-other/blob/main/assignment-3/STRAT.md)に記載しました！こちらを見てくだされば幸いです。<br>
