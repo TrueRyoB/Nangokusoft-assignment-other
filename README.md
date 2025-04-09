@@ -1,12 +1,11 @@
 # はじめに
-このレポジトリは投稿者の就活の一環で作りました。<br>
+このレポジトリは投稿者の就活の一環で作りました。課題2と3を掲載しています。<br>
 勿論オープンソースなので、好きなコード自由につまんでいって構いませんが、機能性はとても限定されています(´･ω･`)<br>
 以下は担当者様への指示になります。<br>
 
 # 提出物確認方法
 課題1:<br>
-[ここ](https://github.com/TrueRyoB/Nangokusoft-assignment-1)のレポジトリで設計を確認できます。<br>
-[ここ](https://trueryob.github.io/Nangokusoft-assignment-1/)で実際の機能性を確認できます。<br>
+ビルドの都合上、リポジトリを分けました。[こちら](https://github.com/TrueRyoB/Nangokusoft-assignment-1/blob/main/README.md)にて詳細をご確認ください。
 
 課題2: <br>
 かんたん→ 
